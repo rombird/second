@@ -47,10 +47,10 @@
             margin: 20px;
         }        
         .mwrapper>.con2>.con2btn>li:nth-child(1){
-            background-color:#4154FF;
+            background-color:#343434;
         }
         .mwrapper>.con2>.con2btn>li{
-            border: 1px solid lightgray;
+            border: 1px solid #e8e8e8;
             padding: 10px 20px;
             border-radius: 30px;
         }
@@ -171,10 +171,10 @@
             margin: 20px;
         }
         .mwrapper>.con4>.con4btn>li:nth-child(1){
-            background-color:#4154FF;
+            background-color:#343434;
         }
         .mwrapper>.con4>.con4btn>li{
-            border: 1px solid lightgray;
+            border: 1px solid #e8e8e8;
             padding: 10px 20px;
             border-radius: 30px
             
