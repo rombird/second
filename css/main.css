@@ -52,7 +52,10 @@
         .mwrapper>.con2>.con2btn>li{
             border: 1px solid #e8e8e8;
             padding: 10px 20px;
-            border-radius: 30px;
+            border-radius: 100px;
+            width: 124px;
+            height: 45px;
+            text-align: center;
         }
         .mwrapper>.con2>.con2btn>li>a{
             font-size: 14px;
@@ -125,7 +128,7 @@
             justify-content: center;
             color: black;
             /* text-decoration: none; */
-            border: 1px solid rgb(144, 144, 144);
+            border: 1px solid lightgray;
             border-radius: 30px;
             padding: 10px 25px;
             font-weight: 600;
@@ -176,8 +179,10 @@
         .mwrapper>.con4>.con4btn>li{
             border: 1px solid #e8e8e8;
             padding: 10px 20px;
-            border-radius: 30px
-            
+            border-radius: 100px;
+            width: 124px;
+            height: 45px;
+            text-align: center;
         }
         .mwrapper>.con4>.con4btn>li>a{
             font-size: 14px;
@@ -249,7 +254,7 @@
             justify-content: center;
             color: black;
             /* text-decoration: none; */
-            border: 1px solid rgb(144, 144, 144);
+            border: 1px solid lightgray;
             border-radius: 30px;
             padding: 10px 25px;
             font-weight: 600;
@@ -361,7 +366,7 @@
             justify-content: center;
             color: black;
             /* text-decoration: none; */
-            border: 1px solid rgb(144, 144, 144);
+            border: 1px solid lightgray;
             border-radius: 30px;
             padding: 10px 25px;
             font-weight: 600;
