@@ -47,7 +47,7 @@
             margin: 20px;
         }        
         .mwrapper>.con2>.con2btn>li:nth-child(1){
-            background-color: rgb(49, 48, 48);
+            background-color:#4154FF;
         }
         .mwrapper>.con2>.con2btn>li{
             border: 1px solid lightgray;
@@ -106,7 +106,7 @@
         }
         .mwrapper>.con2>.con2main>.card-list>.card>.card-content>p:nth-child(1){
             font-size: 1rem;
-            color: rgb(49, 83, 238);
+            color:#4154FF;
         }
         .mwrapper>.con2>.con2main>.card-list>.card>.card-content>p:nth-child(2){
             font-size: 0.7rem;
@@ -171,13 +171,13 @@
             margin: 20px;
         }
         .mwrapper>.con4>.con4btn>li:nth-child(1){
-            background-color: rgb(49, 48, 48);
+            background-color:#4154FF;
         }
         .mwrapper>.con4>.con4btn>li{
             border: 1px solid lightgray;
             padding: 10px 20px;
             border-radius: 30px
-
+            
         }
         .mwrapper>.con4>.con4btn>li>a{
             font-size: 14px;
