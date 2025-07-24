@@ -1,0 +1,268 @@
+.big-banner {
+  position: relative;
+  width: calc(100vw - 15px);
+  /* 스크롤 바 위치 픽셀 - */
+  max-width: 1920px;
+  height: 500px;
+  overflow: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100vw;
+}
+
+.sld {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.sld img {
+  width: 100vw;
+  height: 100%;
+  object-fit: fill;
+  object-position: center;
+  display: block;
+}
+
+.S-img {
+  position: absolute;
+  bottom: 25px;
+  left: 340px;
+  display: flex;
+  gap: 8px;
+}
+
+.sss {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border 0.3;
+}
+
+.sss:hover {
+  border: 1px solid white;
+}
+
+.image-box {
+  width: 1280px;
+  height: 239px;
+  margin: 100px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.image-box img {
+  width: calc((1280px - 20px * 2) / 3);
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #ddd;
+}
+
+@media (max-width: 1080px) {
+  .big-banner {
+    width: calc(100% - 40px);
+    height: 700px;
+    margin: 10px 20px 0 20px;
+    left: 0;
+    transform: none;
+  }
+
+  .sld img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .img-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .img-box2 .box {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+  }
+
+  .card {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+  }
+}
+
+/* @media screen and (max-width: 430px) {
+  .img-box2 .box {
+    flex: 1 1 100%;
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-box2 .box {
+    width: 90%;
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+} */
+
+@media screen and (max-width: 430px) {
+  /* 전체 레이아웃 폭 조절 */
+  .layoutCenter {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* 이미지 박스: 세로 하나씩 */
+  .image-box {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    gap: 10px;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  /* img-box2 내부 박스 */
+  .img-box2 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .img-box2 .box {
+    width: 100% !important; /* 반응형 */
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .img-box2 .box img {
+    width: 100%;
+    height: auto !important; /* 고정된 높이 제거 */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .img-box2 .box dl {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .img-box2 .box dt {
+    font-size: 16px;
+  }
+
+  .img-box2 .box dd {
+    font-size: 13px;
+    color: #666;
+  }
+
+  .card-con {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+    padding: 0 15px;
+    gap: 20px;
+    box-sizing: border-box;
+
+    /* 기존 grid 속성 제거 */
+    grid-template-columns: none !important;
+    grid-template-rows: none !important;
+  }
+
+  .card {
+    display: flex; /* 기존 구조 유지 */
+    flex-direction: row; /* 이미지 왼쪽, 텍스트 오른쪽 */
+    align-items: center;
+    text-align: left;
+    padding: 16px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .card img {
+    width: 124px;
+    height: 168px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  .card .info {
+    margin-left: 0;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .card .info .date,
+  .card .info .title,
+  .card .info .desc {
+    text-align: left;
+  }
+
+
+  /* 버튼 그룹 세로 정렬 */
+  .btn-common,
+  .rank-button-wrap,
+  .more-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn1,
+  .btn2,
+  .more-btn button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* 배너 이미지 반응형 */
+  .big-banner {
+    width: 100%;
+    height: auto;
+    left: 0;
+    transform: none;
+    margin: 10px 0;
+  }
+
+  .sld img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .S-img {
+    position: static;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .sss {
+    width: 36px;
+    height: 36px;
+  }
+}

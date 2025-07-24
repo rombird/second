@@ -13,6 +13,11 @@
 
 
   <style>
+    @font-face {
+      font-family: 'logo-font';
+      src: url('./font/BnviitLasik.ttf');
+      font-style: normal;
+    }
   </style>
 </head>
 
@@ -24,9 +29,9 @@
           <a href="" class="main-logo">NOL outerpark</a>
           <form class="search">
             <input class="search-text" type="text" placeholder=" 놀기 좋은 여름, 혜택을 놀랍게">
-            <button type="submit"><img class="submit-img" src="이미지/돋보기.svg" alt=""></button>
+            <button type="submit"><img class="submit-img" src="pic/돋보기.svg" alt=""></button>
           </form>
-          <div class="event"><img style="width: 180px; height: 50px;" src="이미지/헤더.png" alt=""></div>
+          <div class="event"><img style="width: 180px; height: 50px;" src="pic/헤더.png" alt=""></div>
           <div class="page-change">
             <a href="">NOL</a>
             <a href="">TRIPLE</a>
@@ -40,11 +45,18 @@
             <li><a href="">티켓</a></li>
           </ul>
           <ul class="service">
-            <li><a href="">로그인</a></li>
-            <li><a href="">내 예약</a></li>
+            <li><a href="">📍 로그인</a></li>
+            <li class="service-dropdown">
+              <a href="">✉ 내 예약</a>
+              <ul class="service-reservation">
+                <li><a href="">▪ 투어 예약 ▸ </a></a></li>
+                <li><a href="">▪ 티켓 예약 ▸ </a></a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
+
       <div class="subheader-wrapper layout-01">
         <div class="menu-header">
           <ul class="category-menu1">
@@ -65,7 +77,6 @@
             <li><a href="">지역별</a></li>
             <li><a href="">공연장</a></li>
           </ul>
-
         </div>
       </div>
     </header>
@@ -73,31 +84,32 @@
     <main>
       <div class="big-banner">
         <div class="slide">
-          <div class="sld"><img src="" alt=""></div>
-          <div class="sld"><img src="이미지 파일/b2.jpg" alt=""></div>
-          <div class="sld"><img src="이미지 파일/b11.jpg" alt=""></div>
-          <div class="sld"><img src="이미지 파일/250718033125_25009340.jpg" alt=""></div>
-          <div class="sld"><img src="" alt=""></div>
-          <div class="sld"><img src="" alt=""></div>
-          <div class="sld"><img src="" alt=""></div>
+          <div class="sld"><img src="pic/250722112802_25008581.jpg" alt=""></div>
+          <div class="sld"><img src="pic/b2.jpg" alt=""></div>
+          <div class="sld"><img src="pic/b11.jpg" alt=""></div>
+          <div class="sld"><img src="pic/b3.jpg" alt=""></div>
+          <div class="sld"><img src="pic/b4.jpg" alt=""></div>
+          <div class="sld"><img src="pic/b5.jpg" alt=""></div>
+          <div class="sld"><img src="pic/b6.jpg" alt=""></div>
         </div>
         <div class="S-img">
-          <img src="" class="sss" data-index="0" alt="">
-          <img src="" class="sss" data-index="1" alt="">
-          <img src="" class="sss" data-index="2" alt="">
-          <img src="" class="sss" data-index="3" alt="">
-          <img src="" class="sss" data-index="4" alt="">
-          <img src="" class="sss" data-index="5" alt="">
-          <img src="" class="sss" data-index="6" alt="">
+          <img src="pic/s1.jpg" class="sss" data-index="0" alt="">
+          <img src="pic/s2.jpg" class="sss" data-index="1" alt="">
+          <img src="pic/s3.jpg" class="sss" data-index="2" alt="">
+          <img src="pic/s4.jpg" class="sss" data-index="3" alt="">
+          <img src="pic/s5.jpg" class="sss" data-index="4" alt="">
+          <img src="pic/s6.jpg" class="sss" data-index="5" alt="">
+          <img src="pic/s7.jpg" class="sss" data-index="6" alt="">
         </div>
       </div>
+
       <div class="image-box">
-        <img src="" alt="img1">
-        <img src="" alt="img2">
-        <img src="" alt="img3">
-        <img src="" alt="img4">
-        <img src="" alt="img5">
-        <img src="" alt="img6">
+        <img src="pic/b7.jpg" alt="img1">
+        <img src="pic/b8.jpg" alt="img2">
+        <img src="pic/b9.jpg" alt="img3">
+        <img src="pic/a1.jpg" alt="img4">
+        <img src="pic/a2.jpg" alt="img5">
+        <img src="pic/a3.jpg" alt="img6">
       </div>
       <div>
         <h2 class="h-tag">장르별 랭킹</h2>
@@ -108,14 +120,13 @@
           <button class="btn1" data-target="exhibition">전시/행사</button>
           <button class="btn1" data-target="classic">클래식</button>
         </div>
-
       </div>
-      <div class="genre layoutCenter">
 
+      <div class="genre layoutCenter">
         <div class="genre1 layoutCenter" id="musical">
           <div class="img-box2">
             <div class="box">
-              <img src="" alt="img1">
+              <img src="pic/c1.jpg" alt="img1">
               <dl>
                 <dt>뮤지컬 &lt;팬텀&gt; 10주년 기념 공연</dt>
                 <dd>세종문화회관 대극장</dd>
@@ -124,7 +135,7 @@
             </div>
 
             <div class="box">
-              <img src="" alt="img2">
+              <img src="pic/c5.jpg" alt="img2">
               <dl>
                 <dt>뮤지컬 &lt;알라딘&gt;</dt>
                 <dd>세종문화회관 대극장</dd>
@@ -133,7 +144,7 @@
             </div>
 
             <div class="box">
-              <img src="" alt="img3">
+              <img src="pic/c4.jpg" alt="img3">
               <dl>
                 <dt>뮤지컬 &lt;나의 아저씨&gt;</dt>
                 <dd>세종문화회관 대극장</dd>
@@ -142,7 +153,7 @@
             </div>
 
             <div class="box">
-              <img src="" alt="img4">
+              <img src="pic/c2.jpg" alt="img4">
               <dl>
                 <dt>뮤지컬 &lt;슬립노모어&gt;</dt>
                 <dd>세종문화회관 대극장</dd>
@@ -151,7 +162,7 @@
             </div>
 
             <div class="box">
-              <img src="" alt="img5">
+              <img src="pic/c7.jpg" alt="img5">
               <dl>
                 <dt>뮤지컬 &lt;프라다&gt;</dt>
                 <dd>세종문화회관 대극장</dd>
@@ -170,7 +181,7 @@
           <div class="img-box2">
 
             <div class="box">
-              <img src="" alt="img1">
+              <img src="pic/c11.jpg" alt="img1">
               <dl>
                 <dt>싸이 흠뻑쇼 - 부산</dt>
                 <dd>부산</dd>
@@ -179,7 +190,7 @@
             </div>
 
             <div class="box">
-              <img src="" alt="img2">
+              <img src="pic/c11.jpg" alt="img2">
               <dl>
                 <dt>싸이 흠뻑쇼 - 서울</dt>
                 <dd>서울</dd>
@@ -188,7 +199,7 @@
             </div>
 
             <div class="box">
-              <img src="" alt="img3">
+              <img src="pic/c11.jpg" alt="img3">
               <dl>
                 <dt>싸이 흠뻑쇼 - 대구</dt>
                 <dd>대구</dd>
@@ -197,7 +208,7 @@
             </div>
 
             <div class="box">
-              <img src="" alt="img4">
+              <img src="pic/IU.jpg" alt="img4">
               <dl>
                 <dt>IU 콘서트</dt>
                 <dd>지구</dd>
@@ -206,7 +217,7 @@
             </div>
 
             <div class="box">
-              <img src="" alt="img5">
+              <img src="pic/big.jpg" alt="img5">
               <dl>
                 <dt>빅뱅 콘서트</dt>
                 <dd>탑 복귀 해줘잉</dd>
@@ -219,7 +230,7 @@
             </div>
 
           </div>
-        </div> 
+        </div>
 
         <div class="genre1" id="sports">
           <div class="img-box2">
@@ -271,7 +282,7 @@
             <div class="rank-button-wrap">
               <button id="allRank" class="btn2">스포츠 랭킹 전체보기</button>
             </div>
-          </div>  
+          </div>
         </div>
 
         <div class="genre1" id="exhibition">
@@ -387,11 +398,11 @@
 
 
       <div class="open-section">
-        <h2>오픈 예정</h2>
+        <h2 class="h-tag">오픈 예정</h2>
         <div class="card-con">
 
           <div class="card">
-            <img src="" alt="연극 프리마 파시 포스터">
+            <img src="pic/pr.jpg" alt="연극 프리마 파시 포스터">
             <div class="info">
               <p class="date">07.25(금) 14:00</p>
               <p class="title">연극 &lt;프리마 파시&gt;</p>
@@ -400,16 +411,16 @@
           </div>
 
           <div class="card">
-            <img src="" alt="포스터">
+            <img src="pic/vh.jpg" alt="포스터">
             <div class="info">
               <p class="date">07.28(월) 12:00</p>
-              <p class="title">MARCIN(마르친) 내한공연</p>
+              <p class="title">뱀프 X 헌터</p>
               <p class="desc">일반예매</p>
             </div>
           </div>
 
           <div class="card">
-            <img src="" alt="포스터">
+            <img src="pic/txt.jpg" alt="포스터">
             <div class="info">
               <p class="date">07.30(수) 20:00</p>
               <p class="title">TOMORROW X TOGETHER WORLD TOUR &lt;ACT :&gt;</p>
@@ -418,7 +429,7 @@
           </div>
 
           <div class="card">
-            <img src="" alt="포스터">
+            <img src="pic/sc.jpg" alt="포스터">
             <div class="info">
               <p class="date">오늘 20:00</p>
               <p class="title">2025 실리카겔 단독공연 Syn.THE.Size X</p>
@@ -427,7 +438,7 @@
           </div>
 
           <div class="card">
-            <img src="" alt="포스터">
+            <img src="pic/ms.jpg" alt="포스터">
             <div class="info">
               <p class="date">내일 14:00</p>
               <p class="title">미스터쇼(Mr.SHOW)</p>
@@ -436,7 +447,7 @@
           </div>
 
           <div class="card">
-            <img src="" alt="포스터">
+            <img src="pic/tt.jpg" alt="포스터">
             <div class="info">
               <p class="date">07.28(월) 20:00</p>
               <p class="title">2025 TEEN TOP WE GONNA ROCK IT DROP IT...</p>
@@ -518,7 +529,8 @@
       </div>
 
     </footer>
-  </div>  <!-- 전체div -->
+
+  </div>
 
 
 
