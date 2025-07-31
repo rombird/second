@@ -5,7 +5,11 @@
 .layoutCenter {
     width: 1280px;
     margin: 0 auto;
+<<<<<<< HEAD
     padding: 0;
+=======
+    padding: 10px 0;
+>>>>>>> ca5d1f5e6d4eca532e6c8041a30bcdb0a14c174c
 }
 
 ul {
@@ -24,7 +28,6 @@ p {
 }
 
 
-
 /* header */
 
 /* main-header */
@@ -34,7 +37,6 @@ p {
     padding: 0 20px;
     display: flex;
     align-items: center;
-
 }
 
 .outer-wrapper>header>.mainheader-wrapper>.main-header>.main-logo {
