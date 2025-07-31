@@ -5,7 +5,7 @@
 .layoutCenter {
     width: 1280px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0;
 }
 
 ul {
@@ -193,8 +193,8 @@ p {
 
 
 /* footer */
-footer{
-}
+/* footer{
+} */
 footer>hr{
     border: none;
     height: 0.2px;
