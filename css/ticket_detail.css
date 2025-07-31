@@ -5,7 +5,7 @@
 
 /* main - section1 */
 .outer-wrapper>main>.mainLeft{
-    margin:0 10px;
+    margin:0 20px;
 }
 .outer-wrapper>main>.mainLeft>.section1 {
     width: 830px;
