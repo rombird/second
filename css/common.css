@@ -5,7 +5,7 @@
 .layoutCenter {
     width: 1280px;
     margin: 0 auto;
-    padding: 10px auto;
+    padding: 10px 0;
 }
 
 ul {
