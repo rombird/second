@@ -1,0 +1,404 @@
+/* main */
+.outer-wrapper>main {
+    display: flex;
+}
+
+/* main - section1 */
+.outer-wrapper>main>.mainLeft{
+    margin:0 20px;
+}
+.outer-wrapper>main>.mainLeft>.section1 {
+    width: 830px;
+}
+
+/* section1 - summary */
+.outer-wrapper>main>.mainLeft>.section1>.summary {
+    width: 830px;
+    height: 665px;
+    padding-bottom: 6.5rem;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-top {
+    width: 100%;
+    height: 110px;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-top>h2 {
+    margin: 0px 10px;
+    padding: 0px;
+    height: 39px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-top>div {
+    margin: 5px 10px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-top>div:nth-child(1) {
+    background-color: #F0F1FF;
+    border-radius: 5px;
+    color: #4154FF;
+    width: 88px;
+    padding: 0 5px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body {
+    display: flex;
+
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.poster-box>img {
+    width: 300px;
+    height: 400px;
+    background-color: #b6bdc7;
+}
+
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info {
+    width: 505px;
+    height: 414px;
+    /* border:1px solid; */
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li {
+    width: 505px;
+    /* font-size:15px; */
+    /* border:1px solid; */
+    display: flex;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>strong {
+    width: 90px;
+    height: 25px;
+    margin: 10px 10px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>a {
+    line-height: 2.6rem;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>p {
+    height: 25px;
+    margin: 0;
+    line-height: 2.6rem;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>.info-li-price {
+    margin: 0;
+    height: 101px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>.info-li-price>a {
+    line-height: 3rem;
+    /* border:1px solid; */
+
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>.info-li-price>p {
+    height: 20px;
+    margin: 5px 0;
+    font-size: 13px;
+    line-height: 1rem;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>.info-li-benefit {
+    display: flex;
+    flex-direction: column;
+    /* height:25px; */
+
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>.info-li-benefit>a {
+    margin: .4rem 0;
+    font-size: 13px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.summary>.summary-body>.info>.info-li>.info-li-benefit>a:nth-child(1) {
+    font-size: 16px;
+}
+
+/* main-product-body */
+.outer-wrapper>main>.mainLeft>.section1>.product-body {
+    width: 830px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-body>.nav {
+    height: 70px;
+    border-bottom: 0.1rem solid #b6bdc7;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-body>.nav>.product-nav {
+    display: flex;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-body>.nav>.product-nav>li {
+    height: 57px;
+    margin-left: 1.8rem;
+    line-height: 2.5rem;
+
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-body>.nav>.product-nav>li:nth-child(1) {
+    margin: 0;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-body>.nav>.product-nav>li>a {
+    display: block;
+    padding: 1.6rem 1rem;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-content>.content-casting {
+    height: 316px;
+
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-content>.content-casting>.casting {
+    /* background-color:rgb(199, 199, 232); */
+    margin-top: 2rem;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-content>.content-casting>.casting>.casting-ul {
+    display: flex;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-content>.content-casting>.casting>.casting-ul>.casting-li {
+    width: 101px;
+    height: 152px;
+    margin: 0.1rem 3rem 3rem 0;
+    text-align: center;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-content>.content-casting>.casting>.casting-ul>.casting-li>.casting-img>img {
+    width: 95px;
+    height: 95px;
+    background-color: #b6bdc7;
+    border-radius: 50px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-content>.content-casting>.casting>.casting-plus {
+    width: 830px;
+    height: 50px;
+    border: 1px solid;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.product-content>.content img {
+    width: 830px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.add-content {
+    width: 830px;
+    height: 250px;
+    margin: 50px 0;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.add-content>.add {
+    margin: 20px 0;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.add-content>.add>h3 {
+    display: inline;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.add-content>.add>a {
+    text-align: right;
+    margin-left: 430px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.add-content>.add-people {
+    height: 70px;
+    border: 1px solid #b6bdc7;
+    border-radius: 15px;
+    text-align: left;
+    line-height: 65px;
+}
+
+.outer-wrapper>main>.mainLeft>.section1>.add-content>.add-people span {
+    margin-left: 20px;
+}
+
+
+/* main-section2-side */
+.side {
+    position: sticky;
+    top: 50px;
+}
+.outer-wrapper>main>.mainRight{
+    margin:0 18px;
+}
+.outer-wrapper>main>.mainRight>.section2-side {
+    margin: 0 15px;
+    width: 370px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain {
+    width: 100%;
+    height: 550px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate {
+    margin: 20px 0;
+    height: 380px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideHeader {
+    margin: 0 20px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender {
+    width: 330px;
+    margin: 0 20px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.nav {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.nav>.material-icons {
+    border: none;
+    margin: 0 30px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.nav>.current-date {
+    font-weight: 600;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>ul>li {
+    width: calc(100% / 7);
+    position: relative;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.weeks {
+    height: 27px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.weeks>li {
+    font-weight: 500;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.days {
+    margin-bottom: 20px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.days>li {
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.days>.inactivate {
+    color: #b6bdc7;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.days>li.activate {
+    color: #fff;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.days>li::before {
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.days>li:hover::before {
+    background: #f2f2f2;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainDate>.sideCalender>.Calender>.days>li.active::before {
+    background: #4154FF;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainRound>.round>h4 {
+    color: #b6bdc7;
+    margin: 5px 20px;
+    padding: 5px 0;
+    border-top: 0.1rem solid #b6bdc7;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainRound>.round>span {
+    margin: 5px 20px;
+    font-size: 23px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideMain>.sideMainRound>.roundInfo {
+    margin: 10px 20px;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideBtnMain>a {
+    width: 100%;
+    height: 52px;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: .5px solid #4154FF;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 1rem;
+    margin: 10px 0;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideBtnMain>.btnBook {
+    color: #fff;
+    background-color: #4154FF;
+}
+
+.outer-wrapper>main>.mainRight>.section2-side>.sideBtnMain>.btnForeign {
+    color: #4154FF;
+}
+
+/* 반응처리 */
+/* 1080이하인 경우 */
+@media (max-width:767px) {
+    .outer-wrapper>header>.mainheader-wrapper>.sub-header {
+        display: none;
+    }
+
+    .outer-wrapper>header>.subheader-wrapper {
+        display: none;
+    }
+
+}
+
+@media(max-width:1080px) {
+    .outer-wrapper>header>.mainheader-wrapper>.main-header>.search {
+        width: 290px;
+    }
+
+    .outer-wrapper>header>.mainheader-wrapper>.sub-header {
+        display: none;
+    }
+
+    .outer-wrapper>header>.subheader-wrapper {
+        display: none;
+    }
+
+}
