@@ -12,14 +12,7 @@
 
         }
 
-        .mwrapper>.con1>.con1img {
-
-            /* border: 1px solid black; */
-            /* border-radius: 15px;
-            width: 600px;
-            height: 300px; */
-
-        }
+        .mwrapper>.con1>.con1img {}
 
         .mwrapper>.con1>.con1img>img {
             width: 100%;
@@ -235,9 +228,7 @@
             border-radius: 15px;
         }
 
-        .mwrapper>.con4>.con4main>.con4card-list>.con4card {
-            /* text-decoration: none; */
-        }
+        .mwrapper>.con4>.con4main>.con4card-list>.con4card {}
 
         .mwrapper>.con4>.con4main>.con4card-list>.con4card>.con4card-img {
             /* width: auto; */
@@ -299,11 +290,7 @@
 
         }
 
-        .con5 {
-            /* align-items:center; */
-            /* text-align:center; */
-            /* flex-wrap:wrap; */
-        }
+        .con5 {}
 
         .con5>.con5w {
             justify-content: center;
@@ -477,26 +464,19 @@
 
 
 
-            .con2 {
-                /* justify-items: center; */
-            }
+            .con2 {}
 
-            .con2>.con2w {
-                /* margin-left: 90px; */
-                /* width: 50%; */
-            }
+            .con2>.con2w {}
 
             .con2>.con2btn>li {
                 display: none;
             }
 
-            .con2>.con2btn2 {
-                /* width: 50%; */
-            }
+            .con2>.con2btn2 {}
 
             .mwrapper>.con2>.con2main {
                 display: grid;
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: repeat(2, 1fr);
                 /* 카드 1개씩 세로 정렬 */
                 gap: 15px;
                 /* 카드 간격 */
@@ -522,26 +502,19 @@
 
 
 
-            .con4 {
-                /* justify-items: center; */
-            }
+            .con4 {}
 
-            .con4>.con4w {
-                /* margin-left: 90px; */
-                /* width: 50%; */
-            }
+            .con4>.con4w {}
 
             .con4>.con4btn>li {
                 display: none;
             }
 
-            .con4>.con2btn4 {
-                /* width: 50%; */
-            }
+            .con4>.con2btn4 {}
 
             .mwrapper>.con4>.con4main {
                 display: grid;
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: repeat(2, 1fr);
                 /* 카드 1개씩 세로 정렬 */
                 gap: 15px;
                 /* 카드 간격 */
@@ -559,26 +532,19 @@
 
 
 
-            .con5 {
-                /* justify-items: center; */
-            }
+            .con5 {}
 
-            .con5>.con5w {
-                /* margin-left: 90px; */
-                /* width: 50%; */
-            }
+            .con5>.con5w {}
 
             .con5>.con5btn>li {
                 display: none;
             }
 
-            .con5>.con5btn4 {
-                /* width: 50%; */
-            }
+            .con5>.con5btn4 {}
 
             .mwrapper>.con5>.con5main {
                 display: grid;
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: repeat(2, 1fr);
                 /* 카드 1개씩 세로 정렬 */
                 gap: 15px;
                 /* 카드 간격 */
@@ -590,6 +556,7 @@
             .mwrapper>.con5>.con5main>.con5img {
                 width: 290px;
             }
+
             .mwrapper>.con5>.con5main>.con5img>img {}
 
 
