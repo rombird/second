@@ -187,7 +187,7 @@
     line-height: 40px;
 }
 
-.outer-wrapper>main>.mainLeft>.section1>.product-content>.content>img {
+.outer-wrapper>main>.mainLeft>.section1>.product-content>.content img {
     width: 830px;
 }
 
@@ -207,7 +207,7 @@
 
 .outer-wrapper>main>.mainLeft>.section1>.add-content>.add>a {
     text-align: right;
-    margin-left: 450px;
+    margin-left: 430px;
 }
 
 .outer-wrapper>main>.mainLeft>.section1>.add-content>.add-people {
@@ -229,7 +229,7 @@
     top: 50px;
 }
 .outer-wrapper>main>.mainRight{
-    margin:0 30px;
+    margin:0 18px;
 }
 .outer-wrapper>main>.mainRight>.section2-side {
     margin: 0 15px;
